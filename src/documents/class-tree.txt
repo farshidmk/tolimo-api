@@ -1,0 +1,90 @@
+﻿📦 ساختار درختی کلاس‌ها:
+├── Comment
+│   ├── CommentType
+├── BookletQuestion
+│   ├── Comment
+│   │   ├── CommentType
+│   ├── FormObject
+│   │   ├── FormObjectState
+│   │   ├── FormObjectType
+│   ├── Passage
+│   │   ├── EmbeddedFile
+│   │   │   ├── FileType
+│   │   │   ├── FormObject
+│   │   │   │   ├── FormObjectState
+│   │   │   │   ├── FormObjectType
+│   │   │   ├── short
+│   │   ├── PassageType
+│   ├── QuestionKind
+│   ├── short
+├── PassageProperties
+│   ├── short
+├── ChoiceList
+│   ├── AnswerSelectionMode
+│   ├── Choice
+│   │   ├── byte
+├── Passage
+│   ├── EmbeddedFile
+│   │   ├── FileType
+│   │   ├── FormObject
+│   │   │   ├── FormObjectState
+│   │   │   ├── FormObjectType
+│   │   ├── short
+│   ├── PassageType
+├── AssessmentBooklet
+│   ├── BookletSection
+│   │   ├── BookletQuestion
+│   │   │   ├── Comment
+│   │   │   │   ├── CommentType
+│   │   │   ├── FormObject
+│   │   │   │   ├── FormObjectState
+│   │   │   │   ├── FormObjectType
+│   │   │   ├── Passage
+│   │   │   │   ├── EmbeddedFile
+│   │   │   │   │   ├── FileType
+│   │   │   │   │   ├── FormObject
+│   │   │   │   │   │   ├── FormObjectState
+│   │   │   │   │   │   ├── FormObjectType
+│   │   │   │   │   ├── short
+│   │   │   │   ├── PassageType
+│   │   │   ├── QuestionKind
+│   │   │   ├── short
+│   │   ├── FormObject
+│   │   │   ├── FormObjectState
+│   │   │   ├── FormObjectType
+│   │   ├── SectionType
+│   ├── FormAlignment
+│   ├── TestAccommodation
+│   ├── TestType
+├── FormObject
+│   ├── FormObjectState
+│   ├── FormObjectType
+├── BookletSection
+│   ├── BookletQuestion
+│   │   ├── Comment
+│   │   │   ├── CommentType
+│   │   ├── FormObject
+│   │   │   ├── FormObjectState
+│   │   │   ├── FormObjectType
+│   │   ├── Passage
+│   │   │   ├── EmbeddedFile
+│   │   │   │   ├── FileType
+│   │   │   │   ├── FormObject
+│   │   │   │   │   ├── FormObjectState
+│   │   │   │   │   ├── FormObjectType
+│   │   │   │   ├── short
+│   │   │   ├── PassageType
+│   │   ├── QuestionKind
+│   │   ├── short
+│   ├── FormObject
+│   │   ├── FormObjectState
+│   │   ├── FormObjectType
+│   ├── SectionType
+├── EmbeddedFile
+│   ├── FileType
+│   ├── FormObject
+│   │   ├── FormObjectState
+│   │   ├── FormObjectType
+│   ├── short
+├── Choice
+│   ├── byte
