@@ -2,6 +2,7 @@ import { Controller, Get, Post } from '@nestjs/common';
 import { AppService } from './app.service';
 import { LOGIN_RESPONSE, LoginResponse } from './mock/login.mock';
 import { AssessmentResponse, CONFIRM_RESPONSE } from './mock/confirm.mock';
+import { GET_FILE } from './mock/file.mock';
 
 @Controller()
 export class AppController {
@@ -20,5 +21,9 @@ export class AppController {
   @Get('Assessment/Confirm')
   getAssessment(): AssessmentResponse {
     return CONFIRM_RESPONSE;
+  }
+  @Get('File/Get')
+  getFile() {
+    return GET_FILE;
   }
 }
