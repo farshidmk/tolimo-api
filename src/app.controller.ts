@@ -26,4 +26,13 @@ export class AppController {
   getFile() {
     return GET_FILE;
   }
+
+  @Post('Assessment/Answer')
+  sendAnswer(): AssessmentResponse {
+    return CONFIRM_RESPONSE;
+  }
+  @Post('Assessment/SpeakingAnswer')
+  sendSpeakingAnswer(): AssessmentResponse {
+    return CONFIRM_RESPONSE;
+  }
 }

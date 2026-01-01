@@ -3,6 +3,15 @@
  */
 export const CONFIRM_RESPONSE = {
   data: {
+    examTitle: '',
+    defaultDuration: '03:30:00',
+    bookletName: 'علوم مهندسی',
+    testType: 0,
+    bookletCode: 'B01',
+    examId: '24a176d7-d459-46dd-a2d7-ee32c5b9d89e',
+    accommodation: 0,
+    alignment: 1,
+    description: '',
     sections: [
       {
         sectionId: 'c3228434-81a8-459a-a9c7-0aba55bfb3b9',
@@ -13,8 +22,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '01:00:00',
         isForcedToAnswer: true,
         areAnswersEditable: false,
-        minRequiredAnswers: 30,
-        maxAllowedAnswers: 30,
         questions: [
           {
             questionId: 'f1813c13-d0aa-4410-a054-15b691eb4cc7',
@@ -337,6 +344,13 @@ export const CONFIRM_RESPONSE = {
                 isEncrypted: false,
                 sign: null,
               },
+              {
+                state: 2,
+                label: 'ادامه',
+                formObjectType: 6,
+                isEncrypted: false,
+                sign: null,
+              },
             ],
             stopSectionTimer: true,
             nextAfterSeconds: 0,
@@ -507,6 +521,7 @@ export const CONFIRM_RESPONSE = {
           },
         ],
         formObjects: [],
+        questionCount: 2,
         isEncrypted: false,
         sign: null,
       },
@@ -519,8 +534,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '01:00:00',
         isForcedToAnswer: true,
         areAnswersEditable: false,
-        minRequiredAnswers: 2,
-        maxAllowedAnswers: 2,
         questions: [
           {
             questionId: '6d181b8d-dff3-4925-a3b3-4f804299fdf8',
@@ -688,6 +701,7 @@ export const CONFIRM_RESPONSE = {
           },
         ],
         formObjects: [],
+        questionCount: 2,
         isEncrypted: false,
         sign: null,
       },
@@ -700,8 +714,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '00:02:00',
         isForcedToAnswer: true,
         areAnswersEditable: false,
-        minRequiredAnswers: 0,
-        maxAllowedAnswers: 0,
         questions: [
           {
             questionId: 'd0994346-4c4b-4333-8742-99336ae9b830',
@@ -742,6 +754,7 @@ export const CONFIRM_RESPONSE = {
             sign: null,
           },
         ],
+        questionCount: 0,
         isEncrypted: false,
         sign: null,
       },
@@ -754,8 +767,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '00:02:00',
         isForcedToAnswer: true,
         areAnswersEditable: false,
-        minRequiredAnswers: 0,
-        maxAllowedAnswers: 0,
         questions: [
           {
             questionId: 'bb8945db-2067-4382-bcd9-87cc50c7e93b',
@@ -825,6 +836,7 @@ export const CONFIRM_RESPONSE = {
             sign: null,
           },
         ],
+        questionCount: 0,
         isEncrypted: false,
         sign: null,
       },
@@ -837,8 +849,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '01:00:00',
         isForcedToAnswer: true,
         areAnswersEditable: true,
-        minRequiredAnswers: 0,
-        maxAllowedAnswers: 30,
         questions: [
           {
             questionId: '9aa4adad-2bbf-4867-9645-207fee9f4312',
@@ -1174,6 +1184,7 @@ export const CONFIRM_RESPONSE = {
             sign: null,
           },
         ],
+        questionCount: 2,
         isEncrypted: false,
         sign: null,
       },
@@ -1186,8 +1197,6 @@ export const CONFIRM_RESPONSE = {
         sectionDuration: '00:15:00',
         isForcedToAnswer: true,
         areAnswersEditable: false,
-        minRequiredAnswers: 5,
-        maxAllowedAnswers: 5,
         questions: [
           {
             questionId: '00057e7e-68b7-43b5-9135-343ce9b5e694',
@@ -1415,19 +1424,11 @@ export const CONFIRM_RESPONSE = {
           },
         ],
         formObjects: [],
+        questionCount: 2,
         isEncrypted: false,
         sign: null,
       },
     ],
-    examTitle: '',
-    defaultDuration: '03:30:00',
-    bookletName: 'علوم مهندسی',
-    testType: 0,
-    bookletCode: 'B01',
-    examId: '24a176d7-d459-46dd-a2d7-ee32c5b9d89e',
-    accommodation: 0,
-    alignment: 1,
-    description: '',
     isEncrypted: false,
     sign: null,
   },
